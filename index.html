@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jurgen's Portfolio</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/029e9eff8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+    <section id="header">
+        <a href="index.html" class="name">Jurgen Skenderi</a>
+        <div id="nav">
+            <ul id="navbar">
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#projects-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+                <a href="#"><i class="fa-solid fa-x" id="close"></i></a>
+            </ul>
+            <div class="social-icons">
+                <a href="https://drive.google.com/file/d/1T6CUNVVbTvOzCG6_KK2B8-b6hJRvYfgn/view?usp=share_link" target="_blank">
+                    <i class="fa-solid fa-file-pdf"></i>
+                </a>
+                <a href="https://github.com/Jurgen7" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/jurgen-skenderi/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                
+                <i class="fa-solid fa-bars" id="bar"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+
+    <div class="about">
+        <p>My name is Jurgen, and I am a <span> Web Developer</span>.</p>
+        <p>I have skills and expertise in frontend and backend development.</p>
+        <p>To know more, you can review my resume and view my skills and some projects listed below.</p>
+        <p>I am always open to new offers and new opportunities.</p>
+        <div>
+            <a href="#projects-section"><button>Projects</button></a>
+            <a href="#skills-section"><button>Skills</button></a>
+            <a href="#contact-section"><button>Contact</button></a>
+        </div>
+    </div>
+
+    <!-- Skills -->
+
+    <div id="skills-section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">
+                <ul>
+                    <li>FRONTEND</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <ul>
+                    <li>BACKEND</li>
+                    <li>Python</li>
+                    <li>Django</li>
+                </ul>
+            </div>
+            <div class="skill">
+                <ul>
+                    <li>OTHER</li>
+                    <li>C</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Projects -->
+
+    <div id="projects-section"> 
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="images/ecomm.JPG">
+                <div class="description">
+                    <span>NeoStyle</span>
+                    <p>A fullstack E-commerce Website</p>
+                    <div class="code">
+                        <a href="http://jurgen7.pythonanywhere.com/" target="_blank">
+                            <button><i class="fa-regular fa-eye"></i> Live Demo</button>
+                        </a>
+                        <a href="https://github.com/Jurgen7/E-Commerce-Website" target="_blank">
+                            <button><i class="fa-solid fa-code"></i> Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/Ingtek-photo.JPG">
+                <div class="description">
+                    <span>INGTEK</span>
+                    <p>Construction Company Website</p>
+                    <div class="code">
+                        <a href="http://ingtek-ce.com/" target="_blank">
+                            <button><i class="fa-regular fa-eye"></i> Live Demo</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="images/calculator.JPG">
+                <div class="description">
+                    <span>Calculator</span>
+                    <p>Calculator built with JavaScript</p>
+                    <div class="code">
+                        <a href="https://calculator-jurgen.netlify.app/" target="_blank">
+                            <button><i class="fa-regular fa-eye"></i> Live Demo</button>
+                        </a>
+                        <a href="https://github.com/Jurgen7/Calculator" target="_blank">
+                            <button><i class="fa-solid fa-code"></i> Code</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact-section">
+        <h2>Contact</h2>
+        <div class="contacts" >
+            <div class="contact">
+                <div>
+                    <span><i class="fa-solid fa-phone"></i>+355683210549</span>                
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-envelope"></i>jurgenskenderi7@gmail.com</span>
+                </div>
+                <div>
+                    <span><i class="fa-solid fa-location-dot"></i>1030, Tirana, Albania</span>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/Jurgen7" target="_blank">
+                        <i class="fa-brands fa-github"></i>GitHub
+                    </a>
+                    <a href="https://www.linkedin.com/in/jurgen-skenderi/" target="_blank">
+                        <i class="fa-brands fa-linkedin-in"></i>LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div>
+                <form name="contact" method="POST" data-netlify="true">
+                    <div>
+                        <input type="text" name="name" required placeholder="Name">
+                        <input type="email" name="email" required placeholder="Email">
+                    </div>
+                    
+                    <textarea name="message" required placeholder="Write a message"></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
