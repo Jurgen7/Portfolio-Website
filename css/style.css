@@ -308,14 +308,14 @@ textarea {
     height: 10rem;
 }
 
-form button {
+form button:not(.side-button){
     color: #1a1a1a;
     border: 1px solid #414345;
     box-shadow: none;
     background: none;
 }
 
-form button:hover {
+form button:not(.side-button):hover {
     background-color: #414345;
     color: white;
 }
