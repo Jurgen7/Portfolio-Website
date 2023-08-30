@@ -92,7 +92,7 @@ a {
     align-items: center;
 }
 
-button:not(.side-button) {
+button{
     --green: #1BFD9C;
     padding: 0.4em 2.2em;
     position: relative;
